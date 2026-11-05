@@ -4,7 +4,6 @@ read -e -p $'\033[1;2;26;26;26mTarget:\033[0m ' target
 
 read -e -p $'\033[1;2;26;26;26mVirustotal API:\033[0m ' VT
 
-
 read -e -p $'\033[1;2;26;26;26mOTX API:\033[0m ' OTX
 
 filename="${target//./}"
